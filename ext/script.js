@@ -2,6 +2,7 @@ document.getElementById("auto-fill").addEventListener("click", () => {
 	/* Auto fill form */
 	chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
 		chrome.tabs.sendMessage(tabs[0].id, {
+			//IDs here are the ones used in Extension Window
 			name: document.getElementById('name').value,
 			email: document.getElementById('email').value,
 			telephone: document.getElementById('telephone').value,
