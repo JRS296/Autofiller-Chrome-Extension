@@ -2,6 +2,12 @@
     "name": "Form Autofiller Chrome Extension",
     "version": "1.0",
     "manifest_version": 3,
+    "icons":{
+        "128": "JRS.png",
+        "48": "JRS.png",
+        "32": "JRS.png",
+        "16": "JRS.png"
+    },
     "background": {
         "service_worker": "welcome/background.js"
     },

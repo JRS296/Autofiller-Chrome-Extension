@@ -1,0 +1,19 @@
+.buton_1
+{
+    color: black;
+    background-color: beige;
+    align-self: center;
+    cursor: pointer;
+}
+
+.input_txt
+{
+    color: beige;
+    padding-right: 10px;
+}
+
+.input_box
+{
+    width: 80%;
+    margin-bottom: 5px;
+}

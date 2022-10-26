@@ -15,7 +15,7 @@ document.getElementById("auto-fill").addEventListener("click", () => {
 			year: document.getElementById('year').value,
 			cvv: document.getElementById('cvv').value
 		}, function(response) {
-			console.log(response.status);
+			console.log(response?.status);
 		});
 	});
 });
